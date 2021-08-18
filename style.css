@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 1100px;
+    margin: 2% auto;
+}
+.title{
+    color: darkslategrey;
+}
+table{
+    border-collapse: collapse;
+    width: 90%;
+    margin: 50px auto;
+    padding: 50px 0;
+}
+.product-details{
+    display: flex;
+    align-items: center;
+}
+.product-details img{
+    width: 100px;
+}
+.product-details h3{
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.product-details p{
+    color: #777;
+    font-size: 15px;
+}
+td{
+    border-bottom: 1px solid rgba(153, 153, 153, 0.308);
+}
+.quantity button,
+.close i{
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    border: 1px solid rgba(153, 153, 153, 0.479);
+    cursor: pointer;
+    text-align: center;
+    background: #fff;
+}
+.quantity button:hover{
+    background-color: aqua;
+    color: #fff;
+    border: 0px;
+}
+.quantity input{
+    width: 60px;
+    height: 40px;
+    margin: 0 10px;
+    border: none;
+    background: rgba(153, 153, 153, 0.479);
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.box{
+    display: flex;
+    align-items: center;
+}
+.price h4{
+    font-size: 20px;
+    color: #333;
+}
+.close i{
+   line-height: 40px;
+   color: red;
+}
+.close i:hover{
+    color: #fff;
+    background: red;
+}
+.totalTable{
+    width: 40%;
+    margin: 50px 50px 50px auto;
+}
+.totalTable td{
+    font-size: 20px;
+    color: #333;
+    padding: 15px;
+    border-bottom: 0px;
+}
+.totalTable tr:nth-child(2){
+    border-bottom: 1px solid rgba(153, 153, 153, 0.308);
+}
+.totalTable td:last-child{
+    text-align: right;
+}
